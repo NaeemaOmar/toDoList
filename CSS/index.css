@@ -1,0 +1,67 @@
+/* :root {
+    --darkestGreen: #FF6D4D;
+    --softerDarkGreen: #FAFAFA;
+    --brightGreen:#D12600;
+    --veryGreen: #FF6D4D;
+    --txtColor: #180202;
+} */
+
+/* Background colors */
+/* 
+.veryGreenBg {
+    background-color: var(--veryGreen);
+}
+
+.darkestGreenBg{
+    background-color: var(--darkestGreen);
+}
+
+.brighttGreenBg{
+    background-color: var(--brightGreen);
+} */
+
+/* Text colors */
+
+/* .veryGreenTxt {
+    color: var(--txtColor);
+}
+
+.brighttGreenTxt{
+    color: var(--txtColor);
+}
+
+.darkestGreenTxt {
+    color: var(--txtColor);
+} */
+
+
+/* BoxShadow effects */
+/* .boxShadow {
+    box-shadow: 0px 0px 10px 10px var(--brightGreen);
+} */
+
+
+/* OTHER */
+
+/* .maxWidth{
+    max-width: fit-content;
+}
+
+::placeholder{
+    color: var(--txtColor);
+    text-align: center;
+} */
+
+
+/* div {
+ display: flex;
+ align-items: center;
+ border: solid;
+ justify-content: space-between;
+ width: 300px;
+ margin-top: 10px;
+}
+
+p {
+    margin-top: 5%
+} */

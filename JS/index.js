@@ -44,21 +44,31 @@ function newTaskDiv(){
     // append the new div to the original html div
     parentDiv.appendChild(newDiv)
     // Applying a fx to the checkBox
+    newCheckBox.addEventListener('change', ()=> checkBoxTicked(newCheckBox));
+    inputText.value = "";
+    // applying delet fx to delete button
+    newButton.addEventListener('click', ()=> deleteItems(parentDiv, newDiv));
 }
 
 function checkBoxTicked(a){
     if (a.checked){
-        // Q: how do you style a html tag using JS? A: use .style (see eg)
+        // Q: how do you style a html tag using JS? A: use .style (see below for an eg)
         document.querySelector('p').style.textDecoration = 'line-through';
     } else {
         document.querySelector('p').style.textDecoration = 'none';
     }
 }
 
-function deleteItems(){
-    
+
+// creating fx to delete div holding the list item
+function deleteItems(a, b){
+    a.removeChild(b);
 }
 
+
+// Problems I'm having w/ my code:
+// 1) there is no line-through when I tick my checkBox. Solution = go to Joel
+// 2) my delete btn only deletes the most recent addition to the list, not the item who's button I'm clicking and not more than 1 item. Solution: use the object array thingamy, loop through it using .map to ensure that the specific item is deleted.
 
 
 // function addingItem(a){
